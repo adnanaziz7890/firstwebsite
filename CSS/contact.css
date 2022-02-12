@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+  background-color: #ffcccb;
+}
+header {
+  width: 100vw;
+  height: 70px;
+  border-bottom: solid red;
+  font-family: "Poppins";
+  position: relative;
+  margin-top: 0%;
+}
+
+header .inner {
+  width: 1000px; /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav {
+  float: right;
+  height: 100%;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #101010;
+}
+
+header nav .button {
+  background-color: #1ab26b; /* This HEX is the color of the button */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.form {
+  text-align: center;
+}
+
+header nav .button:hover {
+  filter: brightness(1.05);
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contactbox {
+  background: rgb(204, 86, 86);
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px 60px;
+  background: #1c00bb;
+  color: rgb(0, 0, 0);
+}
+h1 {
+  margin-bottom: 10px;
+}
+.container p {
+  margin-bottom: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group {
+  /* flex-basis: 45%; */
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+textarea {
+  width: 100;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0px;
+  width: 443px;
+  height: 139px;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: bisque;
+}
+button {
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+label {
+  color: black;
+}
+h3 {
+  text-align: center;
+  padding: 2%;
+}

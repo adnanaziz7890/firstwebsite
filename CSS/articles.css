@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  border-bottom: solid red;
+  font-family: "Poppins";
+  background-color: rgba(16, 16, 16, 0.1);
+  position: relative;
+  margin-top: 0%;
+}
+
+header .inner {
+  width: 1000px; /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav {
+  float: right;
+  height: 100%;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #101010;
+}
+
+header nav .button {
+  background-color: #1ab26b; /* This HEX is the color of the button */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+header nav .button:hover {
+  filter: brightness(1.05);
+}
+.section-conrainer {
+  background-color: skyblue;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) *);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.section-conrainer .columns {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.section-conrainer .columns .image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-conrainer .columns .content .content-container {
+  padding: 40px 50px;
+}
+.section-conrainer .columns.content .content-container h5 {
+  font-weight: 700px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 3px 6px 5px yellow;
+  color: red;
+}
+.section-conrainer .columns.content .content-container p {
+  font-weight: 400px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+label {
+  text-emphasis-color: red;
+}

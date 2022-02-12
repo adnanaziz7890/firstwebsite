@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+header {
+  width: 100vw;
+  height: 70px;
+  border-bottom: solid red;
+  font-family: "Poppins";
+  background-color: rgba(16, 16, 16, 0.1);
+  position: relative;
+  margin-top: 0%;
+}
+
+header .inner {
+  width: 1000px; /* This is the inner width of the content inside of your header (80%, etc) */
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+header .logo {
+  display: table;
+  height: 100%;
+  float: left;
+}
+
+header .logo div {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 50px;
+  margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav {
+  float: right;
+  height: 100%;
+}
+
+header nav li {
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+header nav li:last-of-type {
+  margin-right: 0;
+}
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a {
+  color: #101010;
+}
+
+header nav .button {
+  background-color: #1ab26b; /* This HEX is the color of the button */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+header nav .button:hover {
+  filter: brightness(1.05);
+}
+
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(298px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.container .box {
+  position: relative;
+  height: 300px;
+  box-shadow: 0 30px 30px black;
+  overflow: hidden;
+}
+/* .container .box::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+  background-image: linear-gradient(315deg, green 0%, #b02cbc 74%);
+  transition: 0, 4s; */
+}
+.container .box:hover::before {
+  top: 50%;
+}
+.container .box .imgbox {
+  width: 100%;
+  height: 50%;
+}
+.container .box .imgbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box h1 {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+.container .box:hover h1 {
+  color: red;
+}
+.container .box p {
+  font-size: 18px;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+}
+.container .box:hover p {
+  color: darkcyan;
+}
+button {
+  color: black;
+  background-color: skyblue;
+  padding: 2px;
+  text-transform: uppercase;
+  border-radius :10px;
+}
+button a :hover{
+  background-color: chartreuse;
+}
